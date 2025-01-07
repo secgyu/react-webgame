@@ -28,6 +28,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>구구단 게임</h1>
         {first}곱하기{second}는?
       </div>
       <form onSubmit={handleSubmit}>
